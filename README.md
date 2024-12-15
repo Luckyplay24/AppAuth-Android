@@ -219,7 +219,7 @@ more processing of the result:
 
 ```java
 private void doAuthorization() {
-  AuthorizationService authService = new AuthorizationService(this);
+ rvice = new AuthorizationService(this);
   Intent authIntent = authService.getAuthorizationRequestIntent(authRequest);
   startActivityForResult(authIntent, RC_AUTH);
 }
